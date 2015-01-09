@@ -171,7 +171,7 @@ print:
 	more Makefile $(HDRS) $(SRCS) | enscript -Ec -2r -j; exit 0
 	@echo "Printing Complete!"
 
-love:
-	@echo "Here?  Now?"
+# love:
+#	@echo "Here?  Now?"
 
 # DO NOT DELETE
