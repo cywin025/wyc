@@ -21,7 +21,7 @@ int get_input(struct mansession *s, char *output)
 	int x;
 	struct pollfd fds[1];
 	char iabuf[INET_ADDRSTRLEN];
-
+    printf("=======================[Entrace: %s-->%d]============\n",__FUNCTION__,__LINE__);
 	/* Look for \r\n from the front, our preferred end of line */
 	for (x=0;x<s->inlen;x++) {
 			int xtra = 0;
